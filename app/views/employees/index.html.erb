@@ -1,1 +1,6 @@
-hello world
+Employees List
+<% @employees.each do |employee| %>
+  <ul>
+    <li><%= employee.first_name %> <%= employee.last_name %></li>
+  </ul>
+<% end %>
