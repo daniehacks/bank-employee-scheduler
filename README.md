@@ -1,2 +1,2 @@
-# bank-employee-scheduler
-a scheduler for bank employees
+# credit-union-scheduler
+a scheduler for credit union employees
