@@ -1,8 +1,9 @@
 Employees List
+
 <% @employees.each do |employee| %>
   <ul>
-    <li><%= employee.first_name %> <%= employee.last_name %></li>
+    <%= employee.first_name %> <%= employee.last_name %>
   </ul>
 <% end %>
 
-<%= link_to 'Add New Employee', "employees/new"%>
+<%= link_to 'Add New Employee', "employees/new" %>
